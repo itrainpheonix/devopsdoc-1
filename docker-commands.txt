@@ -64,6 +64,7 @@ https://www.javainuse.com/devOps/docker/docker-compose-tutorial
   Ref Link: https://github.com/docker/compose
   1. Create a file called as "docker-compose.yml"
   2. Copy the code below on the above file.
+  3. Validate the below yaml file using this link: http://yamllint.com
 version: "2"
 services: 
   redis: 
