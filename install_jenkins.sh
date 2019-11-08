@@ -4,7 +4,7 @@ sudo apt install openjdk-8-jdk -y
 sudo chmod o+w  /etc/environment
 echo JAVA_HOME="/usr/lib/jvm/java-8-openjdk-amd64" >> /etc/environment
 sudo chmod o-w  /etc/environment
-sudo source /etc/environment
+source /etc/environment
 echo $JAVA_HOME
 
 #Install maven
