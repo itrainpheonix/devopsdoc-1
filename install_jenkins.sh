@@ -17,7 +17,8 @@ sudo mv apache-maven-3.6.1 maven
 sudo rm apache-maven-3.6.1-bin.tar.gz
 sudo touch /etc/profile.d/mavenenv.sh
 sudo chmod o+w /etc/profile.d/mavenenv.sh
-echo export M2_HOME=/opt/maven export PATH=${M2_HOME}/bin:${PATH} > /etc/profile.d/mavenenv.sh
+echo export M2_HOME=/opt/maven > /etc/profile.d/mavenenv.sh
+echo export PATH=${M2_HOME}/bin:${PATH} > /etc/profile.d/mavenenv.sh
 sudo chmod ugo+x,o-w /etc/profile.d/mavenenv.sh
 source /etc/profile.d/mavenenv.sh
 mvn --version
