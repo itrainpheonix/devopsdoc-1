@@ -1,2 +1,0 @@
-# devopsdoc
-documents kept 
