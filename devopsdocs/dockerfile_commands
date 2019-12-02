@@ -1,0 +1,13 @@
+https://kapeli.com/cheat_sheets/Dockerfile.docset/Contents/Resources/Documents/index
+
+
+FROM  -- from where the images is been pulled
+MAINTAINER - author of the image
+COPY -- copy the content inside the image
+ADD -- similar to copy but it allows hyperlink to be referenced
+RUN  -- to excute or install any softwarae inside the images
+ENTRYPOINT -- it run the command during runtime or launch of the container
+CMD -- on lauch of the container it executes the app or any instance.
+ENV -- environmental variable to be set inside the image
+WORKDIR -- set the directory within the images.
+EXPOSE -- on which port the container to be exposed.
