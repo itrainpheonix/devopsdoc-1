@@ -88,7 +88,7 @@ Through Kubectl we can do deployments and manage configuration through two forma
 Kubernetes context:
   Context manages namespace, users(permission) and cluster information in a isolated form.
 
-namespace: itrainjaguar
+namespace: itrainphoenix
 
 Kubernetes resources(components)
 
