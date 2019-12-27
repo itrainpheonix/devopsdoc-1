@@ -54,6 +54,7 @@ Service
   IPV4-4
 
 Kubernetes resources:(Kind) using YAMLs
+YAML Creation link: https://static.brandonpotter.com/kubernetes/DeploymentBuilder.html
  Namespace
  Deployment
  Pod
